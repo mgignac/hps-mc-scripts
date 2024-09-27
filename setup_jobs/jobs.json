@@ -1,0 +1,48 @@
+[
+    {
+        "seed": 147957,
+        "nevents": 1000,
+        "bunches": 10000,
+        "event_interval": 250,
+        "run_params": "3pt74",
+        "target_thickness": 0.002,
+        "beam_energy": 3740.0,
+        "num_electrons": 1500,
+        "target_z": -7.51,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1_v5",
+        "steering_files": {
+            "readout": "/org/hps/steering/readout/PhysicsRun2019TrigFEE.lcsim",
+            "recon": "/org/hps/steering/recon/PhysicsRun2019MCRecon.lcsim"
+        },
+        "output_files": {
+            "beam_rot_sampled_readout.slcio": "beam_rot_sampled_readout.slcio",
+            "beam_rot_sampled_readout_recon.slcio": "beam_rot_sampled_readout_recon.slcio"
+        },
+        "output_dir": "/fs/ddn/sdf/group/hps/users/mgignac/output/MC/",
+        "job_id": 1
+    },
+    {
+        "seed": 147958,
+        "nevents": 1000,
+        "bunches": 10000,
+        "event_interval": 250,
+        "run_params": "3pt74",
+        "target_thickness": 0.002,
+        "beam_energy": 3740.0,
+        "num_electrons": 1500,
+        "target_z": -7.51,
+        "run_number": 14552,
+        "detector": "HPS_Run2021Pass1_v5",
+        "steering_files": {
+            "readout": "/org/hps/steering/readout/PhysicsRun2019TrigFEE.lcsim",
+            "recon": "/org/hps/steering/recon/PhysicsRun2019MCRecon.lcsim"
+        },
+        "output_files": {
+            "beam_rot_sampled_readout.slcio": "beam_rot_sampled_readout.slcio",
+            "beam_rot_sampled_readout_recon.slcio": "beam_rot_sampled_readout_recon.slcio"
+        },
+        "output_dir": "/fs/ddn/sdf/group/hps/users/mgignac/output/MC/",
+        "job_id": 2
+    }
+]
